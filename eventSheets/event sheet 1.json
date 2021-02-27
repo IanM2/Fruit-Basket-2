@@ -15,6 +15,14 @@
 					"id": "restart-layout",
 					"objectClass": "System",
 					"sid": 108449930001147
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 620841409951258,
+					"parameters": {
+						"tag": "\"\""
+					}
 				}
 			],
 			"sid": 439203690396643
