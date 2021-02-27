@@ -40,12 +40,12 @@
 				{
 					"id": "play-by-name",
 					"objectClass": "Audio",
-					"sid": 175052504772852,
+					"sid": 407414705307970,
 					"parameters": {
 						"folder": "sounds",
 						"audio-file-name": "\"Bogart VGM - 8Bit Action- Stage 1\"",
 						"loop": "looping",
-						"volume": "0",
+						"volume": "-5",
 						"tag-optional": "\"\""
 					}
 				}
@@ -375,9 +375,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 162726874305604,
+									"sid": 401200317601116,
 									"parameters": {
-										"interval-seconds": "0.25"
+										"interval-seconds": "0.5"
 									}
 								}
 							],
@@ -400,6 +400,17 @@
 									"behaviorType": "Bullet",
 									"parameters": {
 										"angle": "Guy.shooting_direction"
+									}
+								},
+								{
+									"id": "play",
+									"objectClass": "Audio",
+									"sid": 527018691067132,
+									"parameters": {
+										"audio-file": "Shoot_01",
+										"loop": "not-looping",
+										"volume": "-10",
+										"tag-optional": "\"\""
 									}
 								}
 							],
