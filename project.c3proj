@@ -256,7 +256,7 @@
 		"authorEmail": "",
 		"authorWebsite": "",
 		"appId": "",
-		"pixelRounding": true,
+		"pixelRounding": false,
 		"useLoaderLayout": false,
 		"fullscreenMode": "letterbox-integer-scale",
 		"fullscreenQuality": "low",
@@ -296,7 +296,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 320,
-	"viewportHeight": 180,
+	"viewportWidth": 480,
+	"viewportHeight": 270,
 	"firstLayout": null
 }

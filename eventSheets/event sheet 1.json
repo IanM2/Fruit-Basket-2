@@ -43,6 +43,53 @@
 				}
 			],
 			"sid": 910025595112081
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 960169205360485
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation-frame",
+					"objectClass": "Guy",
+					"sid": 151304016748288,
+					"parameters": {
+						"frame-number": "0"
+					}
+				},
+				{
+					"id": "stop-animation",
+					"objectClass": "Guy",
+					"sid": 388865675764862
+				}
+			],
+			"sid": 763220854432603
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-released",
+					"objectClass": "Keyboard",
+					"sid": 686410973171362
+				}
+			],
+			"actions": [
+				{
+					"id": "start-animation",
+					"objectClass": "Guy",
+					"sid": 343335028924087,
+					"parameters": {
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 350454123963640
 		}
 	],
 	"sid": 324702587291155
