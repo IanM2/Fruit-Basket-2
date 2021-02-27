@@ -32,10 +32,10 @@
 				{
 					"id": "play-by-name",
 					"objectClass": "Audio",
-					"sid": 563737527849981,
+					"sid": 175052504772852,
 					"parameters": {
 						"folder": "sounds",
-						"audio-file-name": "\"Bogart VGM - 8Bit Action- Menu_Select\"",
+						"audio-file-name": "\"Bogart VGM - 8Bit Action- Stage 1\"",
 						"loop": "looping",
 						"volume": "0",
 						"tag-optional": "\"\""
