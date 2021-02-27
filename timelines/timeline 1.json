@@ -5,7 +5,7 @@
 	"resultMode": "default",
 	"ease": "noease",
 	"pathMode": "line",
-	"playheadTime": 5,
+	"playheadTime": 4.5,
 	"totalTime": 5,
 	"stepTime": 0.1,
 	"useStepTime": true,
@@ -19,7 +19,7 @@
 	"repeatCount": 1,
 	"tracks": [
 		{
-			"worldInstance": 17,
+			"worldInstance": 33,
 			"enabled": true,
 			"interpolationMode": "default",
 			"resultMode": "default",
@@ -28,10 +28,10 @@
 			"initialVisibility": true,
 			"id": "",
 			"virtualPosition": {
-				"offsetX": -1,
-				"offsetY": -5,
-				"offsetWidth": 299,
-				"offsetHeight": 278,
+				"offsetX": 3,
+				"offsetY": -3,
+				"offsetWidth": 360.5,
+				"offsetHeight": 310.5,
 				"offsetAngle": 0,
 				"offsetOpacity": 0,
 				"offsetOriginX": 0,
@@ -58,7 +58,14 @@
 					"pathMode": "default"
 				},
 				{
-					"time": 0.4,
+					"time": 0.3,
+					"tags": "",
+					"enabled": true,
+					"ease": "default",
+					"pathMode": "default"
+				},
+				{
+					"time": 0.5,
 					"tags": "",
 					"enabled": true,
 					"ease": "default",
@@ -72,21 +79,7 @@
 					"pathMode": "default"
 				},
 				{
-					"time": 1.5,
-					"tags": "",
-					"enabled": true,
-					"ease": "default",
-					"pathMode": "default"
-				},
-				{
 					"time": 2,
-					"tags": "",
-					"enabled": true,
-					"ease": "default",
-					"pathMode": "default"
-				},
-				{
-					"time": 2.5,
 					"tags": "",
 					"enabled": true,
 					"ease": "default",
@@ -100,21 +93,7 @@
 					"pathMode": "default"
 				},
 				{
-					"time": 3.5,
-					"tags": "",
-					"enabled": true,
-					"ease": "default",
-					"pathMode": "default"
-				},
-				{
 					"time": 4,
-					"tags": "",
-					"enabled": true,
-					"ease": "default",
-					"pathMode": "default"
-				},
-				{
-					"time": 4.5,
 					"tags": "",
 					"enabled": true,
 					"ease": "default",
@@ -133,7 +112,7 @@
 					"property": "offsetX",
 					"source": {
 						"type": "world-instance",
-						"uid": 17
+						"uid": 33
 					},
 					"enabled": true,
 					"interpolationMode": "default",
@@ -162,13 +141,33 @@
 							]
 						},
 						{
-							"time": 0.4,
+							"time": 0.3,
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": 0,
-							"rValue": 0,
-							"aValue": 311,
+							"value": 1,
+							"rValue": 1,
+							"aValue": 312,
+							"addons": [
+								{
+									"id": "cubic-bezier",
+									"data": {
+										"startAnchor": null,
+										"startEnable": false,
+										"endAnchor": null,
+										"endEnable": false
+									}
+								}
+							]
+						},
+						{
+							"time": 0.5,
+							"enabled": true,
+							"ease": "default",
+							"pathMode": "default",
+							"value": 2,
+							"rValue": 2,
+							"aValue": 313,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -186,29 +185,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -1,
-							"rValue": -1,
-							"aValue": 310,
-							"addons": [
-								{
-									"id": "cubic-bezier",
-									"data": {
-										"startAnchor": null,
-										"startEnable": false,
-										"endAnchor": null,
-										"endEnable": false
-									}
-								}
-							]
-						},
-						{
-							"time": 1.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "default",
-							"value": -2,
-							"rValue": -2,
-							"aValue": 309,
+							"value": 4,
+							"rValue": 4,
+							"aValue": 315,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -226,29 +205,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -1,
-							"rValue": -1,
-							"aValue": 310,
-							"addons": [
-								{
-									"id": "cubic-bezier",
-									"data": {
-										"startAnchor": null,
-										"startEnable": false,
-										"endAnchor": null,
-										"endEnable": false
-									}
-								}
-							]
-						},
-						{
-							"time": 2.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "default",
-							"value": -2,
-							"rValue": -2,
-							"aValue": 309,
+							"value": 2,
+							"rValue": 2,
+							"aValue": 313,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -266,29 +225,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -1,
-							"rValue": -1,
-							"aValue": 310,
-							"addons": [
-								{
-									"id": "cubic-bezier",
-									"data": {
-										"startAnchor": null,
-										"startEnable": false,
-										"endAnchor": null,
-										"endEnable": false
-									}
-								}
-							]
-						},
-						{
-							"time": 3.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "default",
-							"value": -2,
-							"rValue": -2,
-							"aValue": 309,
+							"value": 4,
+							"rValue": 4,
+							"aValue": 315,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -306,29 +245,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -1,
-							"rValue": -1,
-							"aValue": 310,
-							"addons": [
-								{
-									"id": "cubic-bezier",
-									"data": {
-										"startAnchor": null,
-										"startEnable": false,
-										"endAnchor": null,
-										"endEnable": false
-									}
-								}
-							]
-						},
-						{
-							"time": 4.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "default",
-							"value": -2,
-							"rValue": -2,
-							"aValue": 309,
+							"value": 2,
+							"rValue": 2,
+							"aValue": 313,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -346,9 +265,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -1,
-							"rValue": -1,
-							"aValue": 310,
+							"value": 4,
+							"rValue": 4,
+							"aValue": 315,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -367,7 +286,7 @@
 					"property": "offsetY",
 					"source": {
 						"type": "world-instance",
-						"uid": 17
+						"uid": 33
 					},
 					"enabled": true,
 					"interpolationMode": "default",
@@ -396,13 +315,33 @@
 							]
 						},
 						{
-							"time": 0.4,
+							"time": 0.3,
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": 1,
-							"rValue": 1,
-							"aValue": 168,
+							"value": -1,
+							"rValue": -1,
+							"aValue": 166,
+							"addons": [
+								{
+									"id": "cubic-bezier",
+									"data": {
+										"startAnchor": null,
+										"startEnable": false,
+										"endAnchor": null,
+										"endEnable": false
+									}
+								}
+							]
+						},
+						{
+							"time": 0.5,
+							"enabled": true,
+							"ease": "default",
+							"pathMode": "default",
+							"value": -4,
+							"rValue": -4,
+							"aValue": 163,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -420,29 +359,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -5,
-							"rValue": -5,
-							"aValue": 162,
-							"addons": [
-								{
-									"id": "cubic-bezier",
-									"data": {
-										"startAnchor": null,
-										"startEnable": false,
-										"endAnchor": null,
-										"endEnable": false
-									}
-								}
-							]
-						},
-						{
-							"time": 1.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "default",
-							"value": -7,
-							"rValue": -7,
-							"aValue": 160,
+							"value": -2,
+							"rValue": -2,
+							"aValue": 165,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -460,29 +379,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -5,
-							"rValue": -5,
-							"aValue": 162,
-							"addons": [
-								{
-									"id": "cubic-bezier",
-									"data": {
-										"startAnchor": null,
-										"startEnable": false,
-										"endAnchor": null,
-										"endEnable": false
-									}
-								}
-							]
-						},
-						{
-							"time": 2.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "default",
-							"value": -7,
-							"rValue": -7,
-							"aValue": 160,
+							"value": -4,
+							"rValue": -4,
+							"aValue": 163,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -500,29 +399,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -5,
-							"rValue": -5,
-							"aValue": 162,
-							"addons": [
-								{
-									"id": "cubic-bezier",
-									"data": {
-										"startAnchor": null,
-										"startEnable": false,
-										"endAnchor": null,
-										"endEnable": false
-									}
-								}
-							]
-						},
-						{
-							"time": 3.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "default",
-							"value": -7,
-							"rValue": -7,
-							"aValue": 160,
+							"value": -2,
+							"rValue": -2,
+							"aValue": 165,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -540,29 +419,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -5,
-							"rValue": -5,
-							"aValue": 162,
-							"addons": [
-								{
-									"id": "cubic-bezier",
-									"data": {
-										"startAnchor": null,
-										"startEnable": false,
-										"endAnchor": null,
-										"endEnable": false
-									}
-								}
-							]
-						},
-						{
-							"time": 4.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "default",
-							"value": -7,
-							"rValue": -7,
-							"aValue": 160,
+							"value": -4,
+							"rValue": -4,
+							"aValue": 163,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -580,9 +439,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "default",
-							"value": -5,
-							"rValue": -5,
-							"aValue": 162,
+							"value": -2,
+							"rValue": -2,
+							"aValue": 165,
 							"addons": [
 								{
 									"id": "cubic-bezier",
@@ -601,7 +460,7 @@
 					"property": "offsetWidth",
 					"source": {
 						"type": "world-instance",
-						"uid": 17
+						"uid": 33
 					},
 					"enabled": true,
 					"interpolationMode": "default",
@@ -620,13 +479,23 @@
 							"addons": []
 						},
 						{
-							"time": 0.4,
+							"time": 0.3,
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 540,
-							"rValue": 540,
-							"aValue": 657,
+							"value": 567,
+							"rValue": 567,
+							"aValue": 684,
+							"addons": []
+						},
+						{
+							"time": 0.5,
+							"enabled": true,
+							"ease": "default",
+							"pathMode": "none",
+							"value": 378,
+							"rValue": 378,
+							"aValue": 495,
 							"addons": []
 						},
 						{
@@ -634,19 +503,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 299,
-							"rValue": 299,
-							"aValue": 416,
-							"addons": []
-						},
-						{
-							"time": 1.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "none",
-							"value": 268,
-							"rValue": 268,
-							"aValue": 385,
+							"value": 343,
+							"rValue": 343,
+							"aValue": 460,
 							"addons": []
 						},
 						{
@@ -654,19 +513,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 299,
-							"rValue": 299,
-							"aValue": 416,
-							"addons": []
-						},
-						{
-							"time": 2.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "none",
-							"value": 268,
-							"rValue": 268,
-							"aValue": 385,
+							"value": 378,
+							"rValue": 378,
+							"aValue": 495,
 							"addons": []
 						},
 						{
@@ -674,19 +523,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 299,
-							"rValue": 299,
-							"aValue": 416,
-							"addons": []
-						},
-						{
-							"time": 3.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "none",
-							"value": 268,
-							"rValue": 268,
-							"aValue": 385,
+							"value": 343,
+							"rValue": 343,
+							"aValue": 460,
 							"addons": []
 						},
 						{
@@ -694,19 +533,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 299,
-							"rValue": 299,
-							"aValue": 416,
-							"addons": []
-						},
-						{
-							"time": 4.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "none",
-							"value": 268,
-							"rValue": 268,
-							"aValue": 385,
+							"value": 378,
+							"rValue": 378,
+							"aValue": 495,
 							"addons": []
 						},
 						{
@@ -714,9 +543,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 299,
-							"rValue": 299,
-							"aValue": 416,
+							"value": 343,
+							"rValue": 343,
+							"aValue": 460,
 							"addons": []
 						}
 					]
@@ -725,7 +554,7 @@
 					"property": "offsetHeight",
 					"source": {
 						"type": "world-instance",
-						"uid": 17
+						"uid": 33
 					},
 					"enabled": true,
 					"interpolationMode": "default",
@@ -744,13 +573,23 @@
 							"addons": []
 						},
 						{
-							"time": 0.4,
+							"time": 0.3,
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 483,
-							"rValue": 483,
-							"aValue": 597,
+							"value": 511,
+							"rValue": 511,
+							"aValue": 625,
+							"addons": []
+						},
+						{
+							"time": 0.5,
+							"enabled": true,
+							"ease": "default",
+							"pathMode": "none",
+							"value": 330,
+							"rValue": 330,
+							"aValue": 444,
 							"addons": []
 						},
 						{
@@ -758,19 +597,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 278,
-							"rValue": 278,
-							"aValue": 392,
-							"addons": []
-						},
-						{
-							"time": 1.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "none",
-							"value": 246,
-							"rValue": 246,
-							"aValue": 360,
+							"value": 291,
+							"rValue": 291,
+							"aValue": 405,
 							"addons": []
 						},
 						{
@@ -778,19 +607,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 278,
-							"rValue": 278,
-							"aValue": 392,
-							"addons": []
-						},
-						{
-							"time": 2.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "none",
-							"value": 246,
-							"rValue": 246,
-							"aValue": 360,
+							"value": 330,
+							"rValue": 330,
+							"aValue": 444,
 							"addons": []
 						},
 						{
@@ -798,19 +617,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 278,
-							"rValue": 278,
-							"aValue": 392,
-							"addons": []
-						},
-						{
-							"time": 3.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "none",
-							"value": 246,
-							"rValue": 246,
-							"aValue": 360,
+							"value": 291,
+							"rValue": 291,
+							"aValue": 405,
 							"addons": []
 						},
 						{
@@ -818,19 +627,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 278,
-							"rValue": 278,
-							"aValue": 392,
-							"addons": []
-						},
-						{
-							"time": 4.5,
-							"enabled": true,
-							"ease": "default",
-							"pathMode": "none",
-							"value": 246,
-							"rValue": 246,
-							"aValue": 360,
+							"value": 330,
+							"rValue": 330,
+							"aValue": 444,
 							"addons": []
 						},
 						{
@@ -838,9 +637,9 @@
 							"enabled": true,
 							"ease": "default",
 							"pathMode": "none",
-							"value": 278,
-							"rValue": 278,
-							"aValue": 392,
+							"value": 291,
+							"rValue": 291,
+							"aValue": 405,
 							"addons": []
 						}
 					]
