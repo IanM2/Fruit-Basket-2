@@ -122,6 +122,21 @@
 					"name": "Jump_03.mp3",
 					"type": "audio/mpeg",
 					"sid": 418497798820926
+				},
+				{
+					"name": "Shoot_01.mp3",
+					"type": "audio/mpeg",
+					"sid": 109893433748238
+				},
+				{
+					"name": "Jingle_Lose_00.mp3",
+					"type": "audio/mpeg",
+					"sid": 139722962042333
+				},
+				{
+					"name": "Hero_Death_00.mp3",
+					"type": "audio/mpeg",
+					"sid": 794258543242868
 				}
 			],
 			"subfolders": []
