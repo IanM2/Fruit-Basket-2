@@ -387,7 +387,7 @@
 									"objectClass": "Guy",
 									"sid": 517092460795012,
 									"parameters": {
-										"object": "Banana",
+										"object": "Bullet1",
 										"layer": "0",
 										"image-point": "0",
 										"create-hierarchy": false
@@ -395,7 +395,7 @@
 								},
 								{
 									"id": "set-angle-of-motion",
-									"objectClass": "Banana",
+									"objectClass": "Bullet1",
 									"sid": 603386438130905,
 									"behaviorType": "Bullet",
 									"parameters": {
@@ -524,14 +524,14 @@
 					"conditions": [
 						{
 							"id": "is-outside-layout",
-							"objectClass": "Banana",
+							"objectClass": "Bullet1",
 							"sid": 223935988470676
 						}
 					],
 					"actions": [
 						{
 							"id": "destroy",
-							"objectClass": "Banana",
+							"objectClass": "Bullet1",
 							"sid": 782823660048504
 						}
 					],
@@ -570,9 +570,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 476784203333212,
+									"sid": 159306235145052,
 									"parameters": {
-										"interval-seconds": "1"
+										"interval-seconds": "3"
 									}
 								}
 							],
@@ -600,6 +600,39 @@
 							"sid": 430084851552025
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-overlapping-another-object",
+							"objectClass": "AppleBullet",
+							"sid": 730277718050690,
+							"parameters": {
+								"object": "Guy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Guy",
+							"sid": 693556695632406,
+							"parameters": {
+								"instance-variable": "health",
+								"value": "Guy.health - 10"
+							}
+						},
+						{
+							"id": "set-default-color",
+							"objectClass": "Guy",
+							"sid": 299725643312159,
+							"parameters": {
+								"color": "rgbEx(255, 0, 0)"
+							}
+						}
+					],
+					"sid": 324339803136385
 				}
 			],
 			"sid": 418093256304422

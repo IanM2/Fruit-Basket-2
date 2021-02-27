@@ -1,5 +1,5 @@
 {
-	"name": "Banana",
+	"name": "Bullet1",
 	"plugin-id": "Sprite",
 	"sid": 486164241147604,
 	"isGlobal": false,
@@ -24,7 +24,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 986647,
+						"imageSpriteId": 608934,
 						"useCollisionPoly": true,
 						"duration": 1
 					}

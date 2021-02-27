@@ -16,7 +16,8 @@
 					},
 					"uid": 2,
 					"instanceVariables": {
-						"shooting_direction": 0
+						"shooting_direction": 0,
+						"health": 100
 					},
 					"behaviors": {
 						"Platform": {
@@ -184,9 +185,9 @@
 						}
 					},
 					"world": {
-						"x": 248.79290425279788,
+						"x": 271.2929042527979,
 						"y": 234.30507979915689,
-						"width": 80,
+						"width": 125,
 						"height": 15,
 						"originX": 0.5,
 						"originY": -1.6666666666666667,
@@ -309,7 +310,7 @@
 					}
 				},
 				{
-					"type": "Banana",
+					"type": "Bullet1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -333,10 +334,10 @@
 						}
 					},
 					"world": {
-						"x": 206,
-						"y": -100,
-						"width": 16,
-						"height": 16,
+						"x": 103,
+						"y": 98.5,
+						"width": 23,
+						"height": 24,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

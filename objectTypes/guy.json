@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 511650783066099
+		},
+		{
+			"name": "health",
+			"type": "number",
+			"desc": "",
+			"sid": 777187376010751
 		}
 	],
 	"behaviorTypes": [
