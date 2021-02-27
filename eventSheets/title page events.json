@@ -1,0 +1,12 @@
+{
+	"name": "Title Page Events",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 476628838687728
+		}
+	],
+	"sid": 905138399530482
+}

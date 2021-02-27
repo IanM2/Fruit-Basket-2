@@ -109,13 +109,17 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"TItle Page",
+			"Gameplay",
+			"Game Over"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Gameplay Events",
+			"Title Page Events",
+			"Game Over Events"
 		],
 		"subfolders": []
 	},
@@ -358,7 +362,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 480,
-	"viewportHeight": 270,
+	"viewportWidth": 640,
+	"viewportHeight": 360,
 	"firstLayout": null
 }
