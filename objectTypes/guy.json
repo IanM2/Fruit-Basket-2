@@ -274,6 +274,49 @@
 				"repeatCount": 1,
 				"repeatTo": 0,
 				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 26,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 0.5581395348837209,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8588069,
+						"collisionPoly": {
+							"points": [
+								0.07692307692307693,
+								0.3023255813953488,
+								0.5,
+								0.023255813953488372,
+								0.9230769230769231,
+								0.27906976744186046,
+								0.8461538461538461,
+								0.5581395348837209,
+								0.6153846153846154,
+								0.627906976744186,
+								0.5,
+								0.9302325581395349,
+								0.34615384615384615,
+								0.627906976744186,
+								0.11538461538461539,
+								0.5581395348837209
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 663576309205949,
+				"name": "Jump",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
 			}
 		],
 		"subfolders": []

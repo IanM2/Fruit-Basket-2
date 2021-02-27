@@ -251,6 +251,14 @@
 							"parameters": {
 								"key": 65
 							}
+						},
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 635354748167465,
+							"parameters": {
+								"key": 87
+							}
 						}
 					],
 					"actions": [
@@ -266,6 +274,31 @@
 					],
 					"sid": 884700334172686,
 					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 362079064476779,
+							"parameters": {
+								"key": 87
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Guy",
+							"sid": 434528915618467,
+							"parameters": {
+								"animation": "\"Jump\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 901051181557575
 				}
 			],
 			"sid": 193333398618073
