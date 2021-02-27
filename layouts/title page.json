@@ -35,7 +35,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "PressAnyKey",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -43,7 +43,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 43,
+					"uid": 44,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {

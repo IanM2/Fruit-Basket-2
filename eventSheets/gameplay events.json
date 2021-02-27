@@ -923,7 +923,7 @@
 					"conditions": [
 						{
 							"id": "on-collision-with-another-object",
-							"objectClass": "Sprite",
+							"objectClass": "Coin",
 							"sid": 946360278826242,
 							"parameters": {
 								"object": "Guy"
@@ -933,7 +933,7 @@
 					"actions": [
 						{
 							"id": "destroy",
-							"objectClass": "Sprite",
+							"objectClass": "Coin",
 							"sid": 538816267935390
 						},
 						{
