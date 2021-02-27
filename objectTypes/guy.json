@@ -29,7 +29,83 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9936986,
+						"imageSpriteId": 5327977,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 26,
+						"height": 42,
+						"originX": 0.5769230769230769,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6381820,
+						"collisionPoly": {
+							"points": [
+								0.15384615384615385,
+								0.23809523809523808,
+								0.5769230769230769,
+								0,
+								1,
+								0.21428571428571427,
+								0.7692307692307693,
+								0.5,
+								0.8076923076923077,
+								0.6428571428571429,
+								0.5769230769230769,
+								0.9047619047619048,
+								0.2692307692307692,
+								0.6666666666666666,
+								0.3076923076923077,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 26,
+						"height": 42,
+						"originX": 0.582051282051282,
+						"originY": 0.5266106442577031,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5170807,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 64,
+						"height": 64,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8577300,
+						"collisionPoly": {
+							"points": [
+								0.375,
+								0.375,
+								0.5,
+								0.125,
+								0.546875,
+								0.4375,
+								0.578125,
+								0.5,
+								0.59375,
+								0.59375,
+								0.5,
+								0.75,
+								0.375,
+								0.609375,
+								0.390625,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
@@ -40,7 +116,7 @@
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
-				"speed": 5
+				"speed": 8
 			}
 		],
 		"subfolders": []
