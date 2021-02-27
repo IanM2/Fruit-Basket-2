@@ -812,6 +812,96 @@
 						}
 					],
 					"sid": 471001189329433
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "NewEnemyType",
+							"sid": 230257599264896,
+							"parameters": {
+								"object": "Guy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Guy",
+							"sid": 454369151346506,
+							"parameters": {
+								"instance-variable": "health",
+								"value": "Guy.health - 5"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Guy",
+							"sid": 820292084542647,
+							"parameters": {
+								"object": "Particles",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 260693111825742,
+							"parameters": {
+								"audio-file": "Hit_03",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 277725104103842
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "NewEnemyType",
+							"sid": 665449430652126,
+							"parameters": {
+								"object": "Bullet1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "NewEnemyType",
+							"sid": 850521423327558
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "NewEnemyType",
+							"sid": 579592901296561,
+							"parameters": {
+								"object": "Particles",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 556064548461274,
+							"parameters": {
+								"audio-file": "Hit_03",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 139246044152818
 				}
 			],
 			"sid": 418093256304422
