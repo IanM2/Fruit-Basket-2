@@ -108,7 +108,8 @@
 			"Particles",
 			"Title",
 			"Timeline",
-			"NewEnemyType"
+			"NewEnemyType",
+			"Sprite"
 		],
 		"subfolders": []
 	},
@@ -164,6 +165,11 @@
 					"name": "Hit_03.mp3",
 					"type": "audio/mpeg",
 					"sid": 780510347217993
+				},
+				{
+					"name": "Collect_Point_00.mp3",
+					"type": "audio/mpeg",
+					"sid": 718905051280162
 				}
 			],
 			"subfolders": []

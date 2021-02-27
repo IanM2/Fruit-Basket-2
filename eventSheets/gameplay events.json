@@ -910,6 +910,57 @@
 				}
 			],
 			"sid": 418093256304422
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Coins",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Sprite",
+							"sid": 946360278826242,
+							"parameters": {
+								"object": "Guy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Sprite",
+							"sid": 538816267935390
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 342069501062050,
+							"parameters": {
+								"audio-file": "Collect_Point_00",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Guy",
+							"sid": 123534609697990,
+							"parameters": {
+								"instance-variable": "coins",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 520069646020751
+				}
+			],
+			"sid": 526043433204109
 		}
 	],
 	"sid": 324702587291155

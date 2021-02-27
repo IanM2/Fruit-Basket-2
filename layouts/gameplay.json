@@ -17,7 +17,8 @@
 					"uid": 2,
 					"instanceVariables": {
 						"shooting_direction": 0,
-						"health": 100
+						"health": 100,
+						"coins": 0
 					},
 					"behaviors": {
 						"Platform": {
@@ -1410,6 +1411,35 @@
 						"height": 63.75,
 						"originX": 0.5333333333333333,
 						"originY": 0.5294117647058824,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 43,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 214.98098115765214,
+						"y": 753.5209381582365,
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
