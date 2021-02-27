@@ -19,10 +19,10 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 200,
 								"acceleration": 1500,
 								"deceleration": 1500,
-								"jump-strength": 650,
+								"jump-strength": 500,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
 								"double-jump": true,
