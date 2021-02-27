@@ -3,8 +3,24 @@
 	"events": [
 		{
 			"eventType": "block",
-			"conditions": [],
-			"actions": [],
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 111128477767712
+				}
+			],
+			"actions": [
+				{
+					"id": "play-timeline",
+					"objectClass": "Timeline",
+					"sid": 722389465864434,
+					"parameters": {
+						"timeline": "Timeline 1",
+						"tags": "\"\""
+					}
+				}
+			],
 			"sid": 476628838687728
 		}
 	],
