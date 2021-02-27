@@ -56,8 +56,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Rotate",
-			"name": "Rotate",
+			"id": "Bullet",
+			"name": "Bullet",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -70,7 +70,7 @@
 			"Ground",
 			"Keyboard",
 			"Audio",
-			"Bullet"
+			"Banana"
 		],
 		"subfolders": []
 	},

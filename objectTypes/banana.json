@@ -1,14 +1,14 @@
 {
-	"name": "Bullet",
+	"name": "Banana",
 	"plugin-id": "Sprite",
 	"sid": 486164241147604,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Rotate",
-			"name": "Rotate",
-			"sid": 868630477729957
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 996740464820297
 		}
 	],
 	"effectTypes": [],
