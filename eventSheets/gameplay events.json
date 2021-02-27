@@ -713,6 +713,105 @@
 						}
 					],
 					"sid": 524782715206110
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "NewEnemyType",
+							"sid": 864735989273262,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Guy",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 782865204977991,
+							"parameters": {
+								"first-value": "Guy.X",
+								"comparison": 2,
+								"second-value": "NewEnemyType.X"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "NewEnemyType",
+							"sid": 736112386349272,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
+						}
+					],
+					"sid": 535346224711033
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "NewEnemyType",
+							"sid": 221584559142361,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Guy",
+								"image-point": "0"
+							}
+						},
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 971447145818063,
+							"parameters": {
+								"first-value": "Guy.X",
+								"comparison": 4,
+								"second-value": "NewEnemyType.X"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "NewEnemyType",
+							"sid": 778705385257866,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
+						}
+					],
+					"sid": 511353345123778
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-x-seconds",
+							"objectClass": "System",
+							"sid": 355816398182068,
+							"parameters": {
+								"interval-seconds": "3"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "simulate-control",
+							"objectClass": "NewEnemyType",
+							"sid": 571774928255253,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "jump"
+							}
+						}
+					],
+					"sid": 471001189329433
 				}
 			],
 			"sid": 418093256304422

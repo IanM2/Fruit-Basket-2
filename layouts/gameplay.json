@@ -22,7 +22,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 200,
+								"max-speed": 350,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 800,
@@ -377,7 +377,7 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
+								"default-controls": false,
 								"enabled": true
 							}
 						},
@@ -1347,6 +1347,69 @@
 						"height": 15,
 						"originX": 0.5,
 						"originY": -1.6666666666666667,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NewEnemyType",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 42,
+					"instanceVariables": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 400,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 10000,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						},
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 297.630928449796,
+						"y": 947.9902606798032,
+						"width": 56.25,
+						"height": 63.75,
+						"originX": 0.5333333333333333,
+						"originY": 0.5294117647058824,
 						"color": [
 							1,
 							1,
