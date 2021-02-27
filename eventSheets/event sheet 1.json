@@ -45,53 +45,6 @@
 			"sid": 910025595112081
 		},
 		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-any-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 960169205360485
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation-frame",
-					"objectClass": "Guy",
-					"sid": 151304016748288,
-					"parameters": {
-						"frame-number": "0"
-					}
-				},
-				{
-					"id": "stop-animation",
-					"objectClass": "Guy",
-					"sid": 388865675764862
-				}
-			],
-			"sid": 763220854432603
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-any-key-released",
-					"objectClass": "Keyboard",
-					"sid": 686410973171362
-				}
-			],
-			"actions": [
-				{
-					"id": "start-animation",
-					"objectClass": "Guy",
-					"sid": 343335028924087,
-					"parameters": {
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 350454123963640
-		},
-		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Guy Movement",
@@ -175,6 +128,147 @@
 				}
 			],
 			"sid": 575691821611930
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Guy Animation",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 262774257298084
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Guy",
+							"sid": 142402849741180,
+							"parameters": {
+								"frame-number": "0"
+							}
+						},
+						{
+							"id": "stop-animation",
+							"objectClass": "Guy",
+							"sid": 993894794848100
+						}
+					],
+					"sid": 936820206687319
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-any-key-released",
+							"objectClass": "Keyboard",
+							"sid": 781156229900206
+						}
+					],
+					"actions": [
+						{
+							"id": "start-animation",
+							"objectClass": "Guy",
+							"sid": 746149880491371,
+							"parameters": {
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 768334077410962
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 422498684079928,
+							"parameters": {
+								"key": 68
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Guy",
+							"sid": 186838621416565,
+							"parameters": {
+								"animation": "\"Walk Right\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 719456253445074
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 702735100300372,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Guy",
+							"sid": 961469970153145,
+							"parameters": {
+								"animation": "\"Walk Left\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 179181920655767
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 292223399776222,
+							"parameters": {
+								"key": 68
+							}
+						},
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 366160119159230,
+							"parameters": {
+								"key": 65
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Guy",
+							"sid": 955551671576540,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 884700334172686,
+					"isOrBlock": true
+				}
+			],
+			"sid": 193333398618073
 		}
 	],
 	"sid": 324702587291155
