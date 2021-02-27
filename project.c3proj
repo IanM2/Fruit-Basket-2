@@ -61,6 +61,14 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "ibstwau00dz",
@@ -70,7 +78,9 @@
 			"Ground",
 			"Keyboard",
 			"Audio",
-			"Banana"
+			"Banana",
+			"Apple",
+			"AppleBullet"
 		],
 		"subfolders": []
 	},

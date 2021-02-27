@@ -41,7 +41,7 @@
 					},
 					"world": {
 						"x": 60,
-						"y": 102,
+						"y": 109,
 						"width": 70.73333333333332,
 						"height": 111.06155950752395,
 						"originX": 0.582051282051282,
@@ -220,9 +220,9 @@
 						}
 					},
 					"world": {
-						"x": 328.7716313465922,
+						"x": 425.2716313465922,
 						"y": 234.21482064787483,
-						"width": 80,
+						"width": 273,
 						"height": 15,
 						"originX": 0.5,
 						"originY": -1.6666666666666667,
@@ -337,6 +337,135 @@
 						"y": 1820,
 						"width": 16,
 						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Apple",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						},
+						"LineOfSight": {
+							"properties": {
+								"obstacles": "solids",
+								"range": 400,
+								"cone-of-view": 360,
+								"use-collision-cells": true
+							}
+						}
+					},
+					"world": {
+						"x": 472,
+						"y": 132,
+						"width": 67,
+						"height": 115,
+						"originX": 0.5185185185185185,
+						"originY": 0.5957446808510638,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Ground",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 113,
+						"y": 234,
+						"width": 194,
+						"height": 15,
+						"originX": 0.5,
+						"originY": -1.6666666666666667,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "AppleBullet",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 400,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 349,
+						"y": 149,
+						"width": 52,
+						"height": 54,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

@@ -1,0 +1,68 @@
+{
+	"name": "Apple",
+	"plugin-id": "Sprite",
+	"sid": 928385651038516,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 412846710216803
+		},
+		{
+			"behaviorId": "LOS",
+			"name": "LineOfSight",
+			"sid": 958445019741532
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 27,
+						"height": 47,
+						"originX": 0.5185185185185185,
+						"originY": 0.5957446808510638,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6158141,
+						"collisionPoly": {
+							"points": [
+								0.07407407407407407,
+								0.3404255319148936,
+								0.5185185185185185,
+								0.0425531914893617,
+								0.8518518518518519,
+								0.3829787234042553,
+								0.8518518518518519,
+								0.5957446808510638,
+								0.8148148148148148,
+								0.7659574468085106,
+								0.5185185185185185,
+								0.9574468085106383,
+								0.18518518518518517,
+								0.7659574468085106,
+								0.1111111111111111,
+								0.5957446808510638
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 513494879800685,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

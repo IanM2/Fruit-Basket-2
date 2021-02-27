@@ -528,6 +528,70 @@
 				}
 			],
 			"sid": 432590432001323
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Enemies",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "has-los-to-object",
+							"objectClass": "Apple",
+							"sid": 142140639763899,
+							"behaviorType": "LineOfSight",
+							"parameters": {
+								"object": "Guy",
+								"image-point": "0"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 397523164412263,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 476784203333212,
+									"parameters": {
+										"interval-seconds": "1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Apple",
+									"sid": 179557464322548,
+									"parameters": {
+										"object": "AppleBullet",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								},
+								{
+									"id": "set-angle",
+									"objectClass": "AppleBullet",
+									"sid": 805409783431114,
+									"parameters": {
+										"angle": "180"
+									}
+								}
+							],
+							"sid": 430084851552025
+						}
+					]
+				}
+			],
+			"sid": 418093256304422
 		}
 	],
 	"sid": 324702587291155
