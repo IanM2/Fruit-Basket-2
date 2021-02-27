@@ -23,6 +23,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
@@ -52,7 +60,8 @@
 		"items": [
 			"Guy",
 			"Ground",
-			"Keyboard"
+			"Keyboard",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -93,7 +102,68 @@
 			"subfolders": []
 		},
 		"music": {
-			"items": [],
+			"items": [
+				{
+					"name": "Bogart VGM - 8Bit Action- Stage 6.mp3",
+					"type": "audio/mpeg",
+					"sid": 377739297537412
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Time is up.mp3",
+					"type": "audio/mpeg",
+					"sid": 413853420925791
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Lose.mp3",
+					"type": "audio/mpeg",
+					"sid": 858673087242942
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Stage 5.mp3",
+					"type": "audio/mpeg",
+					"sid": 829197046773057
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Victory.mp3",
+					"type": "audio/mpeg",
+					"sid": 137989804858131
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Stage 4.mp3",
+					"type": "audio/mpeg",
+					"sid": 731213137314540
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Stage 2.mp3",
+					"type": "audio/mpeg",
+					"sid": 233259269797696
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Stage 3.mp3",
+					"type": "audio/mpeg",
+					"sid": 949333207495425
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Power down.mp3",
+					"type": "audio/mpeg",
+					"sid": 871888193834423
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Power Up.mp3",
+					"type": "audio/mpeg",
+					"sid": 200116328662787
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Stage 1.mp3",
+					"type": "audio/mpeg",
+					"sid": 510998854249867
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Menu_Select.mp3",
+					"type": "audio/mpeg",
+					"sid": 676151667904730
+				}
+			],
 			"subfolders": []
 		},
 		"video": {
