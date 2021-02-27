@@ -25,7 +25,7 @@
 								"jump-strength": 650,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
-								"double-jump": false,
+								"double-jump": true,
 								"jump-sustain": 0,
 								"default-controls": true,
 								"enabled": true
@@ -182,8 +182,116 @@
 						}
 					},
 					"world": {
-						"x": 278.7100225456481,
-						"y": 140.03793348017604,
+						"x": 248.79290425279788,
+						"y": 234.30507979915689,
+						"width": 90,
+						"height": 25,
+						"originX": 0.5,
+						"originY": -0.8,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Ground",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 328.7716313465922,
+						"y": 234.21482064787483,
+						"width": 90,
+						"height": 25,
+						"originX": 0.5,
+						"originY": -0.8,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Ground",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 473.841431370413,
+						"y": 153.7847130299213,
+						"width": 90,
+						"height": 25,
+						"originX": 0.5,
+						"originY": -0.8,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Ground",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 9,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": 585.607269521061,
+						"y": 99.03074181470492,
 						"width": 90,
 						"height": 25,
 						"originX": 0.5,
@@ -227,8 +335,8 @@
 	"sid": 497288822408893,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 640,
-	"height": 360,
-	"unboundedScrolling": false,
+	"width": 1600,
+	"height": 900,
+	"unboundedScrolling": true,
 	"eventSheet": "Event sheet 1"
 }

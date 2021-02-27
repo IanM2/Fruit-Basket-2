@@ -1,5 +1,24 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "Guy",
+					"sid": 299725939537679
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 108449930001147
+				}
+			],
+			"sid": 439203690396643
+		}
+	],
 	"sid": 324702587291155
 }
