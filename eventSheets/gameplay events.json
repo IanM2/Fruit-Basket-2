@@ -12,6 +12,11 @@
 			],
 			"actions": [
 				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 685295524201792
+				},
+				{
 					"id": "play-by-name",
 					"objectClass": "Audio",
 					"sid": 407414705307970,
@@ -794,9 +799,9 @@
 						{
 							"id": "every-x-seconds",
 							"objectClass": "System",
-							"sid": 355816398182068,
+							"sid": 157845770694713,
 							"parameters": {
-								"interval-seconds": "3"
+								"interval-seconds": "2"
 							}
 						}
 					],

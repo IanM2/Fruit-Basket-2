@@ -33,8 +33,8 @@
 	"sid": 822701598737281,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1280,
-	"height": 720,
+	"width": 960,
+	"height": 540,
 	"unboundedScrolling": false,
 	"eventSheet": "Game Over Events"
 }
