@@ -5,32 +5,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-outside-layout",
-					"objectClass": "Guy",
-					"sid": 299725939537679
-				}
-			],
-			"actions": [
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 108449930001147
-				},
-				{
-					"id": "stop",
-					"objectClass": "Audio",
-					"sid": 620841409951258,
-					"parameters": {
-						"tag": "\"\""
-					}
-				}
-			],
-			"sid": 439203690396643
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 405796145095820
@@ -690,6 +664,24 @@
 						}
 					],
 					"sid": 856180218848357
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "AppleBullet",
+							"sid": 946194380664128
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "AppleBullet",
+							"sid": 716301607585312
+						}
+					],
+					"sid": 524782715206110
 				}
 			],
 			"sid": 418093256304422
