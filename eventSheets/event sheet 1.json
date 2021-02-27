@@ -647,6 +647,49 @@
 						}
 					],
 					"sid": 324339803136385
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Apple",
+							"sid": 805961564778088,
+							"parameters": {
+								"object": "Bullet1"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Apple",
+							"sid": 123615087509952
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Apple",
+							"sid": 726456491703592,
+							"parameters": {
+								"object": "Particles",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 777270061758321,
+							"parameters": {
+								"audio-file": "Hit_03",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
+							}
+						}
+					],
+					"sid": 856180218848357
 				}
 			],
 			"sid": 418093256304422
