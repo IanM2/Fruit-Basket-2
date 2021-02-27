@@ -175,6 +175,212 @@
 				}
 			],
 			"sid": 575691821611930
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Guy Shooting",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 696361624562251,
+							"parameters": {
+								"key": 38
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 895419066078466,
+							"parameters": {
+								"key": 37
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 749579979369049,
+							"parameters": {
+								"key": 40
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 361404502046436,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [],
+					"sid": 762486048582019,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "every-x-seconds",
+									"objectClass": "System",
+									"sid": 678080926135893,
+									"parameters": {
+										"interval-seconds": "0.1"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Guy",
+									"sid": 560706238260834,
+									"parameters": {
+										"object": "Banana",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								},
+								{
+									"id": "set-angle-of-motion",
+									"objectClass": "Banana",
+									"sid": 636976818955268,
+									"behaviorType": "Bullet",
+									"parameters": {
+										"angle": "Guy.shooting_direction"
+									}
+								}
+							],
+							"sid": 510993663232287
+						}
+					],
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 607601042466039,
+							"parameters": {
+								"key": 38
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Guy",
+							"sid": 599199728370441,
+							"parameters": {
+								"instance-variable": "shooting_direction",
+								"value": "270"
+							}
+						}
+					],
+					"sid": 972612070133523
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 868396862721576,
+							"parameters": {
+								"key": 37
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Guy",
+							"sid": 785506702629584,
+							"parameters": {
+								"instance-variable": "shooting_direction",
+								"value": "180"
+							}
+						}
+					],
+					"sid": 681150750294123
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 559435416053341,
+							"parameters": {
+								"key": 40
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Guy",
+							"sid": 160224743944402,
+							"parameters": {
+								"instance-variable": "shooting_direction",
+								"value": "90"
+							}
+						}
+					],
+					"sid": 979129151249253
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 632892883246369,
+							"parameters": {
+								"key": 39
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Guy",
+							"sid": 498136419406329,
+							"parameters": {
+								"instance-variable": "shooting_direction",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 246737697307037
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-outside-layout",
+							"objectClass": "Banana",
+							"sid": 875079936436589
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Banana",
+							"sid": 995931180363670
+						}
+					],
+					"sid": 117796706546614
+				}
+			],
+			"sid": 462405410243208
 		}
 	],
 	"sid": 324702587291155
