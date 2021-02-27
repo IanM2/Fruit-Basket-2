@@ -5,7 +5,7 @@
 	"resultMode": "default",
 	"ease": "noease",
 	"pathMode": "line",
-	"playheadTime": 5,
+	"playheadTime": 4.5,
 	"totalTime": 5,
 	"stepTime": 0.1,
 	"useStepTime": true,
