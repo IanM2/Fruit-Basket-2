@@ -53,6 +53,14 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Rotate",
+			"name": "Rotate",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "ibstwau00dz",
@@ -61,7 +69,8 @@
 			"Guy",
 			"Ground",
 			"Keyboard",
-			"Audio"
+			"Audio",
+			"Bullet"
 		],
 		"subfolders": []
 	},
