@@ -31,6 +31,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Particles",
+			"name": "Particles",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
@@ -80,7 +88,8 @@
 			"Audio",
 			"Bullet1",
 			"Apple",
-			"AppleBullet"
+			"AppleBullet",
+			"Particles"
 		],
 		"subfolders": []
 	},
@@ -137,6 +146,11 @@
 					"name": "Hero_Death_00.mp3",
 					"type": "audio/mpeg",
 					"sid": 794258543242868
+				},
+				{
+					"name": "Hit_03.mp3",
+					"type": "audio/mpeg",
+					"sid": 780510347217993
 				}
 			],
 			"subfolders": []

@@ -605,9 +605,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-overlapping-another-object",
+							"id": "on-collision-with-another-object",
 							"objectClass": "AppleBullet",
-							"sid": 730277718050690,
+							"sid": 125704478796045,
 							"parameters": {
 								"object": "Guy"
 							}
@@ -624,11 +624,25 @@
 							}
 						},
 						{
-							"id": "set-default-color",
+							"id": "spawn-another-object",
 							"objectClass": "Guy",
-							"sid": 299725643312159,
+							"sid": 874493822298707,
 							"parameters": {
-								"color": "rgbEx(255, 0, 0)"
+								"object": "Particles",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 104154489205048,
+							"parameters": {
+								"audio-file": "Hit_03",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
