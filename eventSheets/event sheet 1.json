@@ -65,7 +65,7 @@
 						{
 							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 681461726267760,
+							"sid": 573451320978499,
 							"parameters": {
 								"key": 87
 							}
@@ -303,6 +303,18 @@
 							"parameters": {
 								"animation": "\"Jump\"",
 								"from": "beginning"
+							}
+						},
+						{
+							"id": "play-by-name",
+							"objectClass": "Audio",
+							"sid": 614641370529214,
+							"parameters": {
+								"folder": "sounds",
+								"audio-file-name": "\"Jump_03\"",
+								"loop": "not-looping",
+								"volume": "-10",
+								"tag-optional": "\"\""
 							}
 						}
 					],
