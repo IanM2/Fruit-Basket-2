@@ -150,16 +150,6 @@
 					"sid": 109893433748238
 				},
 				{
-					"name": "Jingle_Lose_00.mp3",
-					"type": "audio/mpeg",
-					"sid": 139722962042333
-				},
-				{
-					"name": "Hero_Death_00.mp3",
-					"type": "audio/mpeg",
-					"sid": 794258543242868
-				},
-				{
 					"name": "Hit_03.mp3",
 					"type": "audio/mpeg",
 					"sid": 780510347217993
@@ -170,24 +160,9 @@
 		"music": {
 			"items": [
 				{
-					"name": "Bogart VGM - 8Bit Action- Stage 6.mp3",
-					"type": "audio/mpeg",
-					"sid": 377739297537412
-				},
-				{
-					"name": "Bogart VGM - 8Bit Action- Time is up.mp3",
-					"type": "audio/mpeg",
-					"sid": 413853420925791
-				},
-				{
 					"name": "Bogart VGM - 8Bit Action- Lose.mp3",
 					"type": "audio/mpeg",
 					"sid": 858673087242942
-				},
-				{
-					"name": "Bogart VGM - 8Bit Action- Stage 5.mp3",
-					"type": "audio/mpeg",
-					"sid": 829197046773057
 				},
 				{
 					"name": "Bogart VGM - 8Bit Action- Victory.mp3",
@@ -195,39 +170,9 @@
 					"sid": 137989804858131
 				},
 				{
-					"name": "Bogart VGM - 8Bit Action- Stage 4.mp3",
-					"type": "audio/mpeg",
-					"sid": 731213137314540
-				},
-				{
-					"name": "Bogart VGM - 8Bit Action- Stage 2.mp3",
-					"type": "audio/mpeg",
-					"sid": 233259269797696
-				},
-				{
-					"name": "Bogart VGM - 8Bit Action- Stage 3.mp3",
-					"type": "audio/mpeg",
-					"sid": 949333207495425
-				},
-				{
-					"name": "Bogart VGM - 8Bit Action- Power down.mp3",
-					"type": "audio/mpeg",
-					"sid": 871888193834423
-				},
-				{
-					"name": "Bogart VGM - 8Bit Action- Power Up.mp3",
-					"type": "audio/mpeg",
-					"sid": 200116328662787
-				},
-				{
 					"name": "Bogart VGM - 8Bit Action- Stage 1.mp3",
 					"type": "audio/mpeg",
 					"sid": 510998854249867
-				},
-				{
-					"name": "Bogart VGM - 8Bit Action- Menu_Select.mp3",
-					"type": "audio/mpeg",
-					"sid": 676151667904730
 				}
 			],
 			"subfolders": []

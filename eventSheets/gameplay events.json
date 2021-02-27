@@ -27,6 +27,37 @@
 			"sid": 910025595112081
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Guy",
+					"sid": 620549608756540,
+					"parameters": {
+						"instance-variable": "health",
+						"comparison": 3,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 726371414296715
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 894422697727390,
+					"parameters": {
+						"layout": "Game Over"
+					}
+				}
+			],
+			"sid": 637239090078631
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Guy Movement",
