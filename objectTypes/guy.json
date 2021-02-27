@@ -3,14 +3,7 @@
 	"plugin-id": "Sprite",
 	"sid": 163142955619879,
 	"isGlobal": false,
-	"instanceVariables": [
-		{
-			"name": "shooting_direction",
-			"type": "number",
-			"desc": "0 = right, 90 = down, 180 = left, 270 = up",
-			"sid": 240079629025433
-		}
-	],
+	"instanceVariables": [],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",

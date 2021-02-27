@@ -61,14 +61,6 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "Bullet",
-			"name": "Bullet",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
 		}
 	],
 	"uniqueId": "ibstwau00dz",
@@ -78,7 +70,7 @@
 			"Ground",
 			"Keyboard",
 			"Audio",
-			"Banana"
+			"Bullet"
 		],
 		"subfolders": []
 	},

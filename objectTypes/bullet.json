@@ -1,5 +1,5 @@
 {
-	"name": "Banana",
+	"name": "Bullet",
 	"plugin-id": "Sprite",
 	"sid": 486164241147604,
 	"isGlobal": false,
@@ -9,11 +9,6 @@
 			"behaviorId": "Rotate",
 			"name": "Rotate",
 			"sid": 868630477729957
-		},
-		{
-			"behaviorId": "Bullet",
-			"name": "Bullet",
-			"sid": 622603379009759
 		}
 	],
 	"effectTypes": [],
@@ -22,14 +17,14 @@
 			{
 				"frames": [
 					{
-						"width": 8,
-						"height": 14,
-						"originX": 0.375,
-						"originY": 0.42857142857142855,
+						"width": 16,
+						"height": 16,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 8449356,
+						"imageSpriteId": 986647,
 						"useCollisionPoly": true,
 						"duration": 1
 					}
