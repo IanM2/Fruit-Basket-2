@@ -194,7 +194,7 @@
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -281,7 +281,7 @@
 								"max-fall-speed": 1000,
 								"double-jump": false,
 								"jump-sustain": 0,
-								"default-controls": true,
+								"default-controls": false,
 								"enabled": true
 							}
 						}
@@ -292,7 +292,7 @@
 						"width": 27,
 						"height": 47,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -441,7 +441,7 @@
 						"width": 27,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,

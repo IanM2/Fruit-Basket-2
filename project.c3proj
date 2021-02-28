@@ -141,7 +141,8 @@
 			"Sprite8",
 			"PressAnyKey2",
 			"GuyMovement",
-			"sky"
+			"sky",
+			"Confetti1"
 		],
 		"subfolders": []
 	},

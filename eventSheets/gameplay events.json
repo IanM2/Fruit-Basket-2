@@ -113,10 +113,10 @@
 						{
 							"id": "set-position",
 							"objectClass": "GuyAnimation",
-							"sid": 697787701641462,
+							"sid": 344657732011198,
 							"parameters": {
 								"x": "GuyMovement.X",
-								"y": "GuyMovement.Y-19"
+								"y": "GuyMovement.Y"
 							}
 						}
 					],
@@ -382,11 +382,11 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "GuyAnimation",
-									"sid": 517092460795012,
+									"sid": 736377540311290,
 									"parameters": {
 										"object": "Bullet1",
 										"layer": "0",
-										"image-point": "0",
+										"image-point": "1",
 										"create-hierarchy": false
 									}
 								},
@@ -577,11 +577,11 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "Apple",
-									"sid": 179557464322548,
+									"sid": 963398246178498,
 									"parameters": {
 										"object": "AppleBullet",
 										"layer": "0",
-										"image-point": "0",
+										"image-point": "1",
 										"create-hierarchy": false
 									}
 								},

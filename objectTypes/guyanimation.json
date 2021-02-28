@@ -49,7 +49,7 @@
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -75,13 +75,20 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "BulletSpawn",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					},
 					{
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -107,13 +114,20 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					},
 					{
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -139,13 +153,20 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					},
 					{
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -171,6 +192,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					}
 				],
@@ -188,7 +216,7 @@
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -214,13 +242,20 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					},
 					{
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -246,6 +281,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					}
 				],
@@ -263,7 +305,7 @@
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -289,13 +331,20 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					},
 					{
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -321,6 +370,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					}
 				],
@@ -338,7 +394,7 @@
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
-						"originY": 0.5581395348837209,
+						"originY": 1,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
@@ -364,6 +420,13 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Image Point 1",
+								"x": 0.5,
+								"y": 0.5
+							}
+						],
 						"duration": 1
 					}
 				],
