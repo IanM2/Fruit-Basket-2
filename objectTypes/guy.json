@@ -1,5 +1,5 @@
 {
-	"name": "GuyAnimation",
+	"name": "Guy",
 	"plugin-id": "Sprite",
 	"sid": 163142955619879,
 	"isGlobal": false,
@@ -25,9 +25,19 @@
 	],
 	"behaviorTypes": [
 		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 920192725931817
+		},
+		{
 			"behaviorId": "scrollto",
 			"name": "ScrollTo",
 			"sid": 286085683076796
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 985575785026181
 		}
 	],
 	"effectTypes": [],
