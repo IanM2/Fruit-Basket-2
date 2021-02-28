@@ -122,7 +122,7 @@
 							"height": 15,
 							"max-width": 337,
 							"max-height": 62,
-							"data": "14x0,1,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,45x0,1,16,14x0,1,45x0,2,16,14x0,1,43x0,1,8,9,16,14x0,1,43x0,2,2x9,16,14x0,1,43x0,2,2x9,16,14x0,1,43x0,3,10,9,16,14x0,1,45x0,2,16,14x0,1,45x0,3,16,14x0,1,42x0,37,3x0,2,14x0,1,41x0,4,4x0,2,14x0,1,41x0,5,4x0,2,14x0,1,41x0,5,4x0,2,14x0,1,41x0,5,4x0,2,14x0,1,41x0,6,4x0,2,14x0,1,46x0,2,14x0,1,45x0,1,16,14x0,1,39x0,4,5x0,2,16,14x0,1,39x0,5,5x0,2,16,14x0,1,39x0,5,5x0,2,16,54x0,5,5x0,2,16,54x0,5,5x0,2,16,54x0,6,5x0,3,16,61x0,2,57x0,4,3x0,2,57x0,5,3x0,2,57x0,5,3x0,2,57x0,5,3x0,2,57x0,5,3x0,2,57x0,6,3x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,60x0,1,16,60x0,2,16,58x0,1,8,9,16,58x0,2,2x9,16,58x0,2,2x9,16,58x0,3,3x10,117x0,4,61x0,2,61x0,5,61x0,5,61x0,5,61x0,6,245x0,43,4x14,25,32,1,15,53x0,44,5x19,26,2,16,23,52x0,44,5x19,26,2,16,23,52x0,45,27,20,3x19,26,2,16,23,55x0,3x19,26,2,16,23,55x0,20,2x27,34,2,16,23,59x0,2,16,23,59x0,2,16,23,59x0,3,9,61x0,2,56x0,4,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,6,4x0,2,61x0,2,60x0,1,16,60x0,2,16,58x0,18,25,32,2,58x0,19,26,33,2,58x0,19,26,33,2,55x0,18,3x25,26,33,2,55x0,19,4x26,33,2,55x0,19,4x26,33,2,55x0,20,2x27,2x26,33,2,58x0,19,2x26,2,58x0,20,27,34,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,60x0,1,2,59x0,1,9,16,59x0,2,9,16,59x0,2,9,16,58x0,1,2x9,16,58x0,2,2x9,16,58x0,2,2x9,16,56x0,1,8,3x9,16,56x0,2,4x9,16,56x0,2,4x9,16,54x0,1,8,5x9,16,54x0,2,6x9,16,54x0,2,6x9,16,53x0,1,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,11641x0"
+							"data": "14x0,1,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,46x0,2,14x0,1,45x0,1,16,14x0,1,45x0,2,16,14x0,1,43x0,1,8,9,16,14x0,1,43x0,2,2x9,16,14x0,1,43x0,2,2x9,16,14x0,1,43x0,3,10,9,16,14x0,1,45x0,2,16,14x0,1,45x0,3,16,14x0,1,42x0,37,3x0,2,14x0,1,41x0,4,4x0,2,14x0,1,41x0,5,4x0,2,14x0,1,41x0,5,4x0,2,14x0,1,41x0,5,4x0,2,14x0,1,41x0,6,4x0,2,14x0,1,46x0,2,14x0,1,39x0,1,5x0,1,16,14x0,1,39x0,5,5x0,2,16,14x0,1,39x0,5,5x0,2,16,14x0,1,39x0,5,5x0,2,16,54x0,5,5x0,2,16,54x0,5,5x0,2,16,54x0,5,5x0,3,16,54x0,3,6x0,2,61x0,2,56x0,4,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,6,4x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,60x0,1,16,60x0,2,16,58x0,1,8,9,16,58x0,2,2x9,16,58x0,2,2x9,16,58x0,3,3x10,117x0,4,61x0,2,61x0,5,61x0,5,61x0,5,61x0,6,245x0,43,4x14,25,32,1,15,53x0,44,5x19,26,2,16,23,52x0,44,5x19,26,2,16,23,52x0,45,27,20,3x19,26,2,16,23,55x0,3x19,26,2,16,23,55x0,20,2x27,34,2,16,23,59x0,2,16,23,59x0,2,16,23,59x0,3,9,61x0,2,56x0,4,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,5,4x0,2,56x0,6,4x0,2,61x0,2,60x0,1,16,60x0,2,16,58x0,18,25,32,2,58x0,19,26,33,2,58x0,19,26,33,2,55x0,18,3x25,26,33,2,55x0,19,4x26,33,2,55x0,19,4x26,33,2,55x0,20,2x27,2x26,33,2,58x0,19,2x26,2,58x0,20,27,34,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,61x0,2,60x0,1,2,59x0,1,9,16,59x0,2,9,16,59x0,2,9,16,58x0,1,2x9,16,58x0,2,2x9,16,58x0,2,2x9,16,56x0,1,8,3x9,16,56x0,2,4x9,16,56x0,2,4x9,16,54x0,1,8,5x9,16,54x0,2,6x9,16,54x0,2,6x9,16,53x0,1,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,53x0,2,7x9,16,11641x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -287,8 +287,8 @@
 						}
 					},
 					"world": {
-						"x": 53.5,
-						"y": 116.5,
+						"x": 280,
+						"y": 120,
 						"width": 27,
 						"height": 47,
 						"originX": 0.5,
@@ -436,8 +436,8 @@
 						}
 					},
 					"world": {
-						"x": 101,
-						"y": 106,
+						"x": 678,
+						"y": 202,
 						"width": 27,
 						"height": 43,
 						"originX": 0.5,
@@ -480,8 +480,8 @@
 						}
 					},
 					"world": {
-						"x": 121,
-						"y": 131,
+						"x": 318,
+						"y": 120,
 						"width": 13,
 						"height": 25,
 						"originX": 0.5,
@@ -535,6 +535,622 @@
 						"height": 43,
 						"originX": 0.5,
 						"originY": 1,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 415.7952999999943,
+						"y": 90.51434999999708,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 719.5,
+						"y": 194.5,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 21,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 1229.6129926587903,
+						"y": 191.6297926587855,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 22,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2070.5,
+						"y": 57.5,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2117.5,
+						"y": 45,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 24,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2146,
+						"y": 82,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 25,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2168.5,
+						"y": 35,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 26,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2247,
+						"y": 75,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2197,
+						"y": 66.5,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 28,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2231.5,
+						"y": 38,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 29,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2277,
+						"y": 54.5,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 30,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2307,
+						"y": 68.5,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 31,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2339.5,
+						"y": 28.5,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Coin",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 34,
+					"instanceVariables": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2366.5,
+						"y": 74,
+						"width": 13,
+						"height": 25,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
