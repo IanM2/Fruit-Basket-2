@@ -982,6 +982,48 @@
 						}
 					],
 					"sid": 520069646020751
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "GuyAnimation",
+							"sid": 400541894562535,
+							"parameters": {
+								"instance-variable": "coins",
+								"comparison": 5,
+								"value": "15"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "stop-all",
+							"objectClass": "Audio",
+							"sid": 953882078997618
+						},
+						{
+							"id": "play",
+							"objectClass": "Audio",
+							"sid": 137171189267559,
+							"parameters": {
+								"audio-file": "Bogart VGM - 8Bit Action- Victory",
+								"loop": "not-looping",
+								"volume": "-5",
+								"tag-optional": "\"\""
+							}
+						},
+						{
+							"id": "go-to-layout",
+							"objectClass": "System",
+							"sid": 484467453242591,
+							"parameters": {
+								"layout": "VICTORY"
+							}
+						}
+					],
+					"sid": 258061315031854
 				}
 			],
 			"sid": 526043433204109
