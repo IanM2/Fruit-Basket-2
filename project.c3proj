@@ -141,7 +141,11 @@
 			"Sprite8",
 			"PressAnyKey2",
 			"GuyMovement",
-			"TilesDecoration"
+			"TilesDecoration",
+			"Confetti",
+			"Confetti2",
+			"Confetti3",
+			"Confetti4"
 		],
 		"subfolders": []
 	},
