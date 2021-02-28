@@ -93,7 +93,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Tilemap",
+					"type": "TilesSolid",
 					"properties": {
 						"initially-visible": true,
 						"tile-width": 16,

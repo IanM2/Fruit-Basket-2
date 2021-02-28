@@ -131,7 +131,7 @@
 			"Sprite3",
 			"Sprite4",
 			"Sprite5",
-			"Tilemap",
+			"TilesSolid",
 			"backfull",
 			"backtitle",
 			"backfull2",
@@ -142,7 +142,8 @@
 			"PressAnyKey2",
 			"GuyMovement",
 			"sky",
-			"Confetti1"
+			"Confetti1",
+			"TilesDecorations"
 		],
 		"subfolders": []
 	},

@@ -1,0 +1,21 @@
+{
+	"name": "TilesDecorations",
+	"plugin-id": "Tilemap",
+	"sid": 480411445690500,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 112,
+		"height": 176,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9177471,
+		"useCollisionPoly": true
+	},
+	"tile-collision-polys": {}
+}
