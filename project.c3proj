@@ -80,14 +80,6 @@
 		},
 		{
 			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "Bullet",
 			"name": "Bullet",
 			"author": "Scirra",
@@ -101,13 +93,20 @@
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
 		}
 	],
 	"uniqueId": "ibstwau00dz",
 	"objectTypes": {
 		"items": [
 			"Guy",
-			"Ground",
 			"Keyboard",
 			"Audio",
 			"Bullet1",
@@ -350,7 +349,7 @@
 		"enhancedAccelerationPrecision": true,
 		"cordovaiOSScheme": "app"
 	},
-	"viewportWidth": 640,
-	"viewportHeight": 360,
+	"viewportWidth": 320,
+	"viewportHeight": 180,
 	"firstLayout": null
 }
