@@ -56,24 +56,8 @@
 		},
 		{
 			"type": "behavior",
-			"id": "Platform",
-			"name": "Platform",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
 			"id": "scrollto",
 			"name": "Scroll To",
-			"author": "Scirra",
-			"version": "r234.4",
-			"bundled": false
-		},
-		{
-			"type": "behavior",
-			"id": "bound",
-			"name": "Bound to layout",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -90,6 +74,22 @@
 			"type": "behavior",
 			"id": "LOS",
 			"name": "Line of sight",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "Bound to layout",
+			"author": "Scirra",
+			"version": "r234.4",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"version": "r234.4",
 			"bundled": false
@@ -114,7 +114,7 @@
 	"uniqueId": "ibstwau00dz",
 	"objectTypes": {
 		"items": [
-			"Guy",
+			"GuyAnimation",
 			"Keyboard",
 			"Audio",
 			"Bullet1",
@@ -139,7 +139,7 @@
 			"Sprite6",
 			"Sprite7",
 			"Sprite8",
-			"PressAnyKey2"
+			"GuyMovement"
 		],
 		"subfolders": []
 	},

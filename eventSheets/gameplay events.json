@@ -6,7 +6,7 @@
 			"conditions": [
 				{
 					"id": "compare-instance-variable",
-					"objectClass": "Guy",
+					"objectClass": "GuyAnimation",
 					"sid": 620549608756540,
 					"parameters": {
 						"instance-variable": "health",
@@ -65,7 +65,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Guy",
+							"objectClass": "GuyMovement",
 							"sid": 307711402078408,
 							"behaviorType": "Platform",
 							"parameters": {
@@ -90,7 +90,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Guy",
+							"objectClass": "GuyMovement",
 							"sid": 761140716472076,
 							"behaviorType": "Platform",
 							"parameters": {
@@ -115,7 +115,7 @@
 					"actions": [
 						{
 							"id": "simulate-control",
-							"objectClass": "Guy",
+							"objectClass": "GuyMovement",
 							"sid": 746460778025975,
 							"behaviorType": "Platform",
 							"parameters": {
@@ -124,6 +124,28 @@
 						}
 					],
 					"sid": 845483110523528
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 469555785254375
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "GuyAnimation",
+							"sid": 204323595018351,
+							"parameters": {
+								"x": "GuyMovement.X",
+								"y": "GuyMovement.Y-19"
+							}
+						}
+					],
+					"sid": 741670809085405
 				}
 			],
 			"sid": 575691821611930
@@ -147,7 +169,7 @@
 					"actions": [
 						{
 							"id": "set-animation-frame",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 142402849741180,
 							"parameters": {
 								"frame-number": "0"
@@ -155,7 +177,7 @@
 						},
 						{
 							"id": "stop-animation",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 993894794848100
 						}
 					],
@@ -173,7 +195,7 @@
 					"actions": [
 						{
 							"id": "start-animation",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 746149880491371,
 							"parameters": {
 								"from": "beginning"
@@ -197,7 +219,7 @@
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 186838621416565,
 							"parameters": {
 								"animation": "\"Walk Right\"",
@@ -222,7 +244,7 @@
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 961469970153145,
 							"parameters": {
 								"animation": "\"Walk Left\"",
@@ -263,7 +285,7 @@
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 955551671576540,
 							"parameters": {
 								"animation": "\"Idle\"",
@@ -289,7 +311,7 @@
 					"actions": [
 						{
 							"id": "set-animation",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 434528915618467,
 							"parameters": {
 								"animation": "\"Jump\"",
@@ -375,7 +397,7 @@
 							"actions": [
 								{
 									"id": "spawn-another-object",
-									"objectClass": "Guy",
+									"objectClass": "GuyAnimation",
 									"sid": 517092460795012,
 									"parameters": {
 										"object": "Bullet1",
@@ -390,7 +412,7 @@
 									"sid": 603386438130905,
 									"behaviorType": "Bullet",
 									"parameters": {
-										"angle": "Guy.shooting_direction"
+										"angle": "GuyAnimation.shooting_direction"
 									}
 								},
 								{
@@ -425,7 +447,7 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 299094842062524,
 							"parameters": {
 								"instance-variable": "shooting_direction",
@@ -450,7 +472,7 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 831033290532861,
 							"parameters": {
 								"instance-variable": "shooting_direction",
@@ -475,7 +497,7 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 678530089593493,
 							"parameters": {
 								"instance-variable": "shooting_direction",
@@ -500,7 +522,7 @@
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 344029368621751,
 							"parameters": {
 								"instance-variable": "shooting_direction",
@@ -547,7 +569,7 @@
 							"sid": 142140639763899,
 							"behaviorType": "LineOfSight",
 							"parameters": {
-								"object": "Guy",
+								"object": "GuyAnimation",
 								"image-point": "0"
 							}
 						}
@@ -600,23 +622,23 @@
 							"objectClass": "AppleBullet",
 							"sid": 125704478796045,
 							"parameters": {
-								"object": "Guy"
+								"object": "GuyAnimation"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 693556695632406,
 							"parameters": {
 								"instance-variable": "health",
-								"value": "Guy.health - 10"
+								"value": "GuyAnimation.health - 10"
 							}
 						},
 						{
 							"id": "spawn-another-object",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 874493822298707,
 							"parameters": {
 								"object": "Particles",
@@ -714,7 +736,7 @@
 							"sid": 864735989273262,
 							"behaviorType": "LineOfSight",
 							"parameters": {
-								"object": "Guy",
+								"object": "GuyAnimation",
 								"image-point": "0"
 							}
 						},
@@ -723,7 +745,7 @@
 							"objectClass": "System",
 							"sid": 782865204977991,
 							"parameters": {
-								"first-value": "Guy.X",
+								"first-value": "GuyAnimation.X",
 								"comparison": 2,
 								"second-value": "Orange.X"
 							}
@@ -760,7 +782,7 @@
 							"sid": 221584559142361,
 							"behaviorType": "LineOfSight",
 							"parameters": {
-								"object": "Guy",
+								"object": "GuyAnimation",
 								"image-point": "0"
 							}
 						},
@@ -769,7 +791,7 @@
 							"objectClass": "System",
 							"sid": 971447145818063,
 							"parameters": {
-								"first-value": "Guy.X",
+								"first-value": "GuyAnimation.X",
 								"comparison": 4,
 								"second-value": "Orange.X"
 							}
@@ -839,23 +861,23 @@
 							"objectClass": "Orange",
 							"sid": 230257599264896,
 							"parameters": {
-								"object": "Guy"
+								"object": "GuyAnimation"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "set-instvar-value",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 454369151346506,
 							"parameters": {
 								"instance-variable": "health",
-								"value": "Guy.health - 5"
+								"value": "GuyAnimation.health - 5"
 							}
 						},
 						{
 							"id": "spawn-another-object",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 820292084542647,
 							"parameters": {
 								"object": "Particles",
@@ -944,7 +966,7 @@
 							"objectClass": "Coin",
 							"sid": 946360278826242,
 							"parameters": {
-								"object": "Guy"
+								"object": "GuyAnimation"
 							}
 						}
 					],
@@ -967,7 +989,7 @@
 						},
 						{
 							"id": "add-to-instvar",
-							"objectClass": "Guy",
+							"objectClass": "GuyAnimation",
 							"sid": 123534609697990,
 							"parameters": {
 								"instance-variable": "coins",
