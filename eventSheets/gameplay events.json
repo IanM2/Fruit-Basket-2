@@ -372,9 +372,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 401200317601116,
+									"sid": 357515192571469,
 									"parameters": {
-										"interval-seconds": "0.5"
+										"interval-seconds": "1"
 									}
 								}
 							],
@@ -520,9 +520,10 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "is-outside-layout",
+							"id": "is-on-screen",
 							"objectClass": "Bullet1",
-							"sid": 223935988470676
+							"sid": 127324174484793,
+							"isInverted": true
 						}
 					],
 					"actions": [
@@ -532,7 +533,8 @@
 							"sid": 782823660048504
 						}
 					],
-					"sid": 949546495669838
+					"sid": 949546495669838,
+					"isOrBlock": true
 				}
 			],
 			"sid": 432590432001323
