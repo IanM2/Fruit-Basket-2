@@ -108,7 +108,8 @@
 			"Particles",
 			"Title",
 			"Timeline",
-			"NewEnemyType"
+			"NewEnemyType",
+			"Sprite"
 		],
 		"subfolders": []
 	},

@@ -22,6 +22,27 @@
 				}
 			],
 			"sid": 476628838687728
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 277761035111424
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 886555198063229,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 167576673526728
 		}
 	],
 	"sid": 905138399530482
