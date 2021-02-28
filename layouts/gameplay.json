@@ -19,7 +19,7 @@
 					"behaviors": {},
 					"world": {
 						"x": 0,
-						"y": 480,
+						"y": 240,
 						"width": 1690,
 						"height": 179,
 						"originX": 0,
@@ -51,8 +51,8 @@
 				1
 			],
 			"isTransparent": true,
-			"parallaxX": 0.25,
-			"parallaxY": 1,
+			"parallaxX": 0.6,
+			"parallaxY": 0.75,
 			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"useRenderCells": false,
@@ -90,7 +90,7 @@
 					"ownData": {
 						"tilemapData": {
 							"width": 150,
-							"height": 30,
+							"height": 15,
 							"max-width": 337,
 							"max-height": 62,
 							"data": "29x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,61x0,1,19376x0"
@@ -106,7 +106,7 @@
 						"x": 0,
 						"y": 0,
 						"width": 2400,
-						"height": 480,
+						"height": 240,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -161,7 +161,7 @@
 					},
 					"world": {
 						"x": 48,
-						"y": 432,
+						"y": 192,
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
@@ -258,8 +258,8 @@
 						}
 					},
 					"world": {
-						"x": 352,
-						"y": 432,
+						"x": 240,
+						"y": 176,
 						"width": 27,
 						"height": 47,
 						"originX": 0.5,
@@ -407,8 +407,8 @@
 						}
 					},
 					"world": {
-						"x": 444.7591848174632,
-						"y": 378.9163886885719,
+						"x": 336,
+						"y": 176,
 						"width": 27,
 						"height": 43,
 						"originX": 0.5,
@@ -452,7 +452,7 @@
 					},
 					"world": {
 						"x": 112,
-						"y": 448,
+						"y": 192,
 						"width": 13,
 						"height": 25,
 						"originX": 0.5,
@@ -497,7 +497,7 @@
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 2400,
-	"height": 480,
+	"height": 240,
 	"unboundedScrolling": false,
 	"eventSheet": "Gameplay Events"
 }
