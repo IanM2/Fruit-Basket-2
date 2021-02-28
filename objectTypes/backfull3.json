@@ -1,7 +1,7 @@
 {
-	"name": "Title",
+	"name": "backfull3",
 	"plugin-id": "Sprite",
-	"sid": 574279193743143,
+	"sid": 346132153859904,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,31 +11,31 @@
 			{
 				"frames": [
 					{
-						"width": 64,
+						"width": 678,
 						"height": 64,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7432520,
+						"imageSpriteId": 3127482,
 						"collisionPoly": {
 							"points": [
-								0.234375,
-								0.234375,
+								0,
+								0,
 								0.5,
-								0.203125,
-								0.78125,
-								0.203125,
-								0.53125,
+								0,
+								0.9985250737463127,
+								0,
+								0.9985250737463127,
 								0.5,
-								0.765625,
-								0.765625,
+								0.9985250737463127,
+								0.984375,
 								0.5,
-								0.734375,
-								0.25,
-								0.734375,
-								0.375,
+								0.984375,
+								0,
+								0.984375,
+								0,
 								0.5
 							]
 						},
@@ -43,7 +43,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 356087490394614,
+				"sid": 198974628920235,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
