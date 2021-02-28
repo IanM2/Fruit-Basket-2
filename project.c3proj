@@ -133,10 +133,10 @@
 	"eventSheets": {
 		"items": [
 			"Gameplay Events",
-			"Title Page Events",
 			"Game Over Events",
-			"Event sheet 1",
-			"Event sheet 2"
+			"Event sheet 2",
+			"Title Page Events",
+			"Event sheet 1"
 		],
 		"subfolders": []
 	},
@@ -195,6 +195,16 @@
 					"name": "Bogart VGM - 8Bit Action- Stage 1.mp3",
 					"type": "audio/mpeg",
 					"sid": 510998854249867
+				},
+				{
+					"name": "Bogart VGM - 8Bit Action- Stage 2.mp3",
+					"type": "audio/mpeg",
+					"sid": 104067969834087
+				},
+				{
+					"name": "POL-cactus-land-short.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 931546848225452
 				}
 			],
 			"subfolders": []
