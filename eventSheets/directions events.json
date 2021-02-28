@@ -28,6 +28,15 @@
 					}
 				},
 				{
+					"id": "set-solid-collision-filter",
+					"objectClass": "Apple",
+					"sid": 389850165552245,
+					"parameters": {
+						"mode": "exclusive",
+						"tags": "\"orange\""
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 793830094844528,
