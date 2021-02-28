@@ -6,6 +6,35 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "backtitle",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 845,
+						"y": 90,
+						"width": 1690,
+						"height": 179,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Title",
 					"properties": {
 						"initially-visible": true,

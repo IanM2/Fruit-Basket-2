@@ -124,7 +124,9 @@
 			"Sprite4",
 			"Sprite5",
 			"Tilemap",
-			"backfull"
+			"backfull",
+			"backtitle",
+			"backfull2"
 		],
 		"subfolders": []
 	},
