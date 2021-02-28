@@ -110,7 +110,10 @@
 			"Timeline",
 			"NewEnemyType",
 			"PressAnyKey",
-			"Coin"
+			"Coin",
+			"Sprite",
+			"Sprite2",
+			"Sprite3"
 		],
 		"subfolders": []
 	},
