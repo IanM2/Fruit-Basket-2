@@ -1,0 +1,48 @@
+{
+	"name": "GuyMovement",
+	"plugin-id": "Sprite",
+	"sid": 916122322086871,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 928753972732515
+		},
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 651917188131821
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 26,
+						"height": 43,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6820415,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 501766605276532,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

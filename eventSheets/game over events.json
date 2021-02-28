@@ -18,6 +18,22 @@
 					"parameters": {
 						"layout": "Gameplay"
 					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 178226155037614
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 755665046662571,
+					"parameters": {
+						"audio-file": "Bogart VGM - 8Bit Action- Stage 2",
+						"loop": "looping",
+						"volume": "-5",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 397809703829963
