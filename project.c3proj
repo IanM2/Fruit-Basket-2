@@ -140,7 +140,8 @@
 			"Sprite7",
 			"Sprite8",
 			"PressAnyKey2",
-			"GuyMovement"
+			"GuyMovement",
+			"sky"
 		],
 		"subfolders": []
 	},
