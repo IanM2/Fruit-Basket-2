@@ -1,5 +1,30 @@
 {
 	"name": "Game Over Events",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 218003824418879
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 860307087973528,
+					"parameters": {
+						"audio-file": "Bogart VGM - 8Bit Action- Lose",
+						"loop": "not-looping",
+						"volume": "-5",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 253655309372187
+		}
+	],
 	"sid": 909041434560983
 }
