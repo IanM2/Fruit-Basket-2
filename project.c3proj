@@ -123,7 +123,8 @@
 			"Sprite3",
 			"Sprite4",
 			"Sprite5",
-			"Tilemap"
+			"Tilemap",
+			"backfull"
 		],
 		"subfolders": []
 	},
