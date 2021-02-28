@@ -28,20 +28,20 @@
 					}
 				},
 				{
+					"id": "set-solid-collision-filter",
+					"objectClass": "Apple",
+					"sid": 974135925388822,
+					"parameters": {
+						"mode": "exclusive",
+						"tags": "\"orange\""
+					}
+				},
+				{
 					"id": "go-to-layout",
 					"objectClass": "System",
 					"sid": 713418941537850,
 					"parameters": {
 						"layout": "Gameplay"
-					}
-				},
-				{
-					"id": "set-solid-collision-filter",
-					"objectClass": "Apple",
-					"sid": 635577891963144,
-					"parameters": {
-						"mode": "exclusive",
-						"tags": "\"orange\""
 					}
 				}
 			],
