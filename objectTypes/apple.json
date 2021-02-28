@@ -6,11 +6,6 @@
 	"instanceVariables": [],
 	"behaviorTypes": [
 		{
-			"behaviorId": "Platform",
-			"name": "Platform",
-			"sid": 412846710216803
-		},
-		{
 			"behaviorId": "LOS",
 			"name": "LineOfSight",
 			"sid": 958445019741532
@@ -19,6 +14,11 @@
 			"behaviorId": "bound",
 			"name": "BoundToLayout",
 			"sid": 125746226342602
+		},
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 210345291843334
 		}
 	],
 	"effectTypes": [],
@@ -29,8 +29,8 @@
 					{
 						"width": 27,
 						"height": 47,
-						"originX": 0.5624142661179697,
-						"originY": 0.7261204164780444,
+						"originX": 0.5,
+						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
