@@ -123,6 +123,7 @@
 	"layouts": {
 		"items": [
 			"TItle Page",
+			"Directions",
 			"Gameplay",
 			"Game Over"
 		],
@@ -132,7 +133,8 @@
 		"items": [
 			"Gameplay Events",
 			"Title Page Events",
-			"Game Over Events"
+			"Game Over Events",
+			"Event sheet 1"
 		],
 		"subfolders": []
 	},
