@@ -68,7 +68,7 @@
 					},
 					"world": {
 						"x": 1,
-						"y": -2.5,
+						"y": 0.9521668490980559,
 						"width": 2400,
 						"height": 480,
 						"originX": 0,
@@ -398,7 +398,22 @@
 					},
 					"uid": 43,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"Sine": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 4,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 8,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
 					"world": {
 						"x": 116.78419868452542,
 						"y": 454.11423002831305,
