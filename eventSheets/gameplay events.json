@@ -931,6 +931,28 @@
 						}
 					],
 					"sid": 139246044152818
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-start-of-layout",
+							"objectClass": "System",
+							"sid": 187230244352376
+						}
+					],
+					"actions": [
+						{
+							"id": "set-solid-collision-filter",
+							"objectClass": "Apple",
+							"sid": 807973129302914,
+							"parameters": {
+								"mode": "exclusive",
+								"tags": "\"orange\""
+							}
+						}
+					],
+					"sid": 475978184547638
 				}
 			],
 			"sid": 418093256304422
