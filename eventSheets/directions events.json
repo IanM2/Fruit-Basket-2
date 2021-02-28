@@ -1,0 +1,43 @@
+{
+	"name": "DIrections Events",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-any-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 138746607832797
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Audio",
+					"sid": 850576767001378
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 294518829045500,
+					"parameters": {
+						"audio-file": "Bogart VGM - 8Bit Action- Stage 2",
+						"loop": "looping",
+						"volume": "-5",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 181616691455426,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 565000813074957
+		}
+	],
+	"sid": 954653128350301
+}

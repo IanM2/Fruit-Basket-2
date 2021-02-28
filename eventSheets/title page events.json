@@ -19,6 +19,17 @@
 						"timeline": "Timeline 1",
 						"tags": "\"\""
 					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 834703004754765,
+					"parameters": {
+						"audio-file": "POL-cactus-land-short",
+						"loop": "looping",
+						"volume": "-5",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 476628838687728

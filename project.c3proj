@@ -134,9 +134,9 @@
 		"items": [
 			"Gameplay Events",
 			"Game Over Events",
-			"Event sheet 2",
+			"Victory Events",
 			"Title Page Events",
-			"Event sheet 1"
+			"DIrections Events"
 		],
 		"subfolders": []
 	},
@@ -190,11 +190,6 @@
 					"name": "Bogart VGM - 8Bit Action- Victory.mp3",
 					"type": "audio/mpeg",
 					"sid": 137989804858131
-				},
-				{
-					"name": "Bogart VGM - 8Bit Action- Stage 1.mp3",
-					"type": "audio/mpeg",
-					"sid": 510998854249867
 				},
 				{
 					"name": "Bogart VGM - 8Bit Action- Stage 2.mp3",
