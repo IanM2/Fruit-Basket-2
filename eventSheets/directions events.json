@@ -7,19 +7,19 @@
 				{
 					"id": "on-any-key-pressed",
 					"objectClass": "Keyboard",
-					"sid": 138746607832797
+					"sid": 951818711759804
 				}
 			],
 			"actions": [
 				{
 					"id": "stop-all",
 					"objectClass": "Audio",
-					"sid": 850576767001378
+					"sid": 814705335299593
 				},
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 294518829045500,
+					"sid": 607427290014519,
 					"parameters": {
 						"audio-file": "Bogart VGM - 8Bit Action- Stage 2",
 						"loop": "looping",
@@ -30,7 +30,7 @@
 				{
 					"id": "set-solid-collision-filter",
 					"objectClass": "Apple",
-					"sid": 974135925388822,
+					"sid": 389850165552245,
 					"parameters": {
 						"mode": "exclusive",
 						"tags": "\"orange\""
@@ -39,13 +39,13 @@
 				{
 					"id": "go-to-layout",
 					"objectClass": "System",
-					"sid": 713418941537850,
+					"sid": 793830094844528,
 					"parameters": {
 						"layout": "Gameplay"
 					}
 				}
 			],
-			"sid": 565000813074957
+			"sid": 740964541198412
 		}
 	],
 	"sid": 954653128350301
