@@ -486,7 +486,7 @@
 					}
 				},
 				{
-					"type": "Juice",
+					"type": "Particles",
 					"properties": {
 						"rate": 50,
 						"spray-cone": 360,

@@ -105,16 +105,15 @@
 			"Bullet1",
 			"Apple",
 			"AppleBullet",
-			"Juice",
+			"Particles",
 			"Title",
 			"Timeline",
 			"NewEnemyType",
 			"PressAnyKey",
 			"Coin",
-			"Confetti1",
-			"Confetti2",
-			"Confetti3",
-			"Confetti4"
+			"Sprite",
+			"Sprite2",
+			"Sprite3"
 		],
 		"subfolders": []
 	},
