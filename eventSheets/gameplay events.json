@@ -733,6 +733,15 @@
 							"parameters": {
 								"control": "left"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Orange",
+							"sid": 209433116792300,
+							"parameters": {
+								"animation": "\"Walk Left\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 535346224711033
@@ -770,6 +779,15 @@
 							"parameters": {
 								"control": "right"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Orange",
+							"sid": 526449628286266,
+							"parameters": {
+								"animation": "\"Walk Right\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 511353345123778
@@ -794,6 +812,15 @@
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "jump"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Orange",
+							"sid": 381563100901350,
+							"parameters": {
+								"animation": "\"Jump\"",
+								"from": "beginning"
 							}
 						}
 					],
