@@ -36,5 +36,5 @@
 	"width": 1280,
 	"height": 720,
 	"unboundedScrolling": false,
-	"eventSheet": "Event sheet 1"
+	"eventSheet": null
 }

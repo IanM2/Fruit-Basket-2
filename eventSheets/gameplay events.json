@@ -619,7 +619,7 @@
 							"objectClass": "Guy",
 							"sid": 874493822298707,
 							"parameters": {
-								"object": "Particles",
+								"object": "Juice",
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
@@ -662,7 +662,7 @@
 							"objectClass": "Apple",
 							"sid": 726456491703592,
 							"parameters": {
-								"object": "Particles",
+								"object": "Juice",
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
@@ -826,7 +826,7 @@
 							"objectClass": "Guy",
 							"sid": 820292084542647,
 							"parameters": {
-								"object": "Particles",
+								"object": "Juice",
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
@@ -869,7 +869,7 @@
 							"objectClass": "NewEnemyType",
 							"sid": 579592901296561,
 							"parameters": {
-								"object": "Particles",
+								"object": "Juice",
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
