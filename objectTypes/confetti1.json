@@ -1,0 +1,20 @@
+{
+	"name": "Confetti1",
+	"plugin-id": "Particles",
+	"sid": 201966194323995,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 53,
+		"height": 53,
+		"originX": 0.4528301886792453,
+		"originY": 0.5471698113207547,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 712845,
+		"useCollisionPoly": true
+	}
+}
