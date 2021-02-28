@@ -138,12 +138,8 @@
 			"backfull3",
 			"Sprite6",
 			"Sprite7",
-<<<<<<< HEAD
 			"Sprite8",
 			"GuyMovement"
-=======
-			"Sprite8"
->>>>>>> parent of e1e69f7 (gameover full)
 		],
 		"subfolders": []
 	},
