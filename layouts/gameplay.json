@@ -24,11 +24,11 @@
 					"behaviors": {},
 					"ownData": {
 						"tilemapData": {
-							"width": 312,
-							"height": 62,
-							"max-width": 312,
+							"width": 150,
+							"height": 30,
+							"max-width": 337,
 							"max-height": 62,
-							"data": "19344x0"
+							"data": "20894x0"
 						},
 						"tile-width": 16,
 						"tile-height": 16,
@@ -40,8 +40,8 @@
 					"world": {
 						"x": 0,
 						"y": 0,
-						"width": 5000,
-						"height": 1000,
+						"width": 2400,
+						"height": 480,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -71,10 +71,10 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 350,
+								"max-speed": 100,
 								"acceleration": 1500,
 								"deceleration": 1500,
-								"jump-strength": 800,
+								"jump-strength": 400,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
 								"double-jump": false,
@@ -95,8 +95,8 @@
 						}
 					},
 					"world": {
-						"x": 36.85600647057349,
-						"y": 441.85700080882174,
+						"x": 46.53644397940273,
+						"y": 429.4107240117556,
 						"width": 26,
 						"height": 43,
 						"originX": 0.5,
@@ -125,7 +125,7 @@
 					"behaviors": {
 						"Bullet": {
 							"properties": {
-								"speed": 400,
+								"speed": 300,
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
@@ -138,8 +138,8 @@
 					"world": {
 						"x": 99,
 						"y": -108,
-						"width": 16,
-						"height": 16,
+						"width": 14,
+						"height": 12,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -185,11 +185,16 @@
 								"cone-of-view": 360,
 								"use-collision-cells": true
 							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
 						}
 					},
 					"world": {
-						"x": 231.733824953718,
-						"y": 435.07404356201675,
+						"x": 599.867034218054,
+						"y": 455.3213700715553,
 						"width": 27,
 						"height": 47,
 						"originX": 0.5624142661179697,
@@ -218,7 +223,7 @@
 					"behaviors": {
 						"Bullet": {
 							"properties": {
-								"speed": 400,
+								"speed": 200,
 								"acceleration": 0,
 								"gravity": 0,
 								"bounce-off-solids": false,
@@ -231,8 +236,8 @@
 					"world": {
 						"x": 214,
 						"y": -120,
-						"width": 16,
-						"height": 16,
+						"width": 13,
+						"height": 12,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -253,8 +258,8 @@
 						"type": "one-shot",
 						"object": 106156612016393,
 						"live-preview": false,
-						"speed": 200,
-						"size": 12,
+						"speed": 100,
+						"size": 4,
 						"opacity": 100,
 						"grow-rate": 0,
 						"x-randomiser": 0,
@@ -274,8 +279,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -9,
-						"y": -191,
+						"x": 16.099991540750125,
+						"y": -81.396703605391,
 						"width": 16,
 						"height": 16,
 						"originX": 0,
@@ -304,7 +309,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 200,
+								"max-speed": 125,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 400,
@@ -337,8 +342,8 @@
 						}
 					},
 					"world": {
-						"x": 265.2942453010994,
-						"y": 435.0567031013831,
+						"x": 444.7591848174632,
+						"y": 378.9163886885719,
 						"width": 27,
 						"height": 43,
 						"originX": 0.5975308641975309,

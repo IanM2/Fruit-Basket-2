@@ -678,6 +678,11 @@
 								"volume": "-10",
 								"tag-optional": "\"\""
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bullet1",
+							"sid": 137423100219416
 						}
 					],
 					"sid": 856180218848357
@@ -912,6 +917,11 @@
 								"volume": "-10",
 								"tag-optional": "\"\""
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Bullet1",
+							"sid": 134994434871928
 						}
 					],
 					"sid": 139246044152818

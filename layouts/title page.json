@@ -18,8 +18,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 311,
-						"y": 167,
+						"x": 159,
+						"y": 63,
 						"width": 117,
 						"height": 114,
 						"originX": 0.5,
@@ -47,12 +47,12 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 233,
-						"y": 347,
-						"width": 337,
-						"height": 30,
-						"originX": 0.2564102564102564,
-						"originY": 1.1428571428571428,
+						"x": 159.97633524529954,
+						"y": 155.20078175508894,
+						"width": 234,
+						"height": 14,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -92,8 +92,8 @@
 	"sid": 844213538105113,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 960,
-	"height": 540,
+	"width": 320,
+	"height": 180,
 	"unboundedScrolling": false,
 	"eventSheet": "Title Page Events"
 }
