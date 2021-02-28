@@ -125,7 +125,8 @@
 			"TItle Page",
 			"Directions",
 			"Gameplay",
-			"Game Over"
+			"Game Over",
+			"VICTORY"
 		],
 		"subfolders": []
 	},
@@ -134,7 +135,8 @@
 			"Gameplay Events",
 			"Title Page Events",
 			"Game Over Events",
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
